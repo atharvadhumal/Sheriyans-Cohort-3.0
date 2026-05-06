@@ -1,0 +1,50 @@
+/* h1{
+    color: red;
+    background-color: black;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cadetblue;
+    font-size: small;
+} */
+
+/* custom font */
+@font-face {
+    font-family: horror;
+    src: url(./Shadow\ of\ the\ Deads.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+
+h1{
+    color: red;
+    background-color: black;
+    font-size: 50px;
+    font-family: horror;
+    font-weight: 100;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
